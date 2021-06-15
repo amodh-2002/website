@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.logo {
+  padding: 2rem 13rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.sing-up__container {
+  border: 1px solid gray;
+  padding: 0rem 2rem;
+  width: 60%;
+  height: 60%;
+  border-radius: 4px;
+}
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sing__desc {
+  font-weight: 500;
+  padding: 1rem 0rem;
+  color: #fff;
+}
+.email {
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.input {
+  border: 1px solid black;
+  margin: 0.3rem 0rem;
+  width: 98%;
+  padding: 0.4rem 0rem;
+  font-size: 20px;
+}
+
+.logo__continue {
+  border: 1px solid black;
+  margin: 0.3rem 0rem;
+  width: 98%;
+  padding: 0.6rem 0rem;
+  /* background-color: #f3cd6f; */
+  border-radius: 4px;
+  cursor: pointer;
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sing-up__cunt {
+  margin: 4rem 0rem;
+}
+.sing-up__info {
+  font-size: 14px;
+  /* padding: 0rem 0rem; */
+  margin: 1rem 0rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.need {
+  font-size: 15px;
+  margin: 18px 0px;
+}
+.need:active {
+}
+.need a {
+  text-decoration: none;
+}
+.add__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0rem 2rem; */
+  background: #abbaab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 15vh;
+}
+
+.margin {
+  display: flex;
+}
+.info__name {
+  padding: 0rem 2rem;
+  font-family: "Poppins", sans-serif;
+}
+.new__cou {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #8dbbe9;
+  font-weight: normal;
+}
+.logo__my {
+  font-size: 14px;
+  padding: 1rem 0rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+.logo__my:before {
+  content: "";
+  display: block;
+  width: 230px;
+  height: 2px;
+  background: rgb(184, 15, 15);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -8;
+}
+.logo__my:after {
+  content: "";
+  display: block;
+  width: 230px;
+  height: 2px;
+  background: rgb(230, 227, 227);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+.logo__login {
+  border: 1px solid black;
+  margin: 0.3rem 0rem;
+  width: 26%;
+  padding: 0.6rem 0rem;
+  background-color: #e9e7e2;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.login {
+  width: 100%;
+}
+.logo__login a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
